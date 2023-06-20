@@ -1,0 +1,43 @@
+@keyframes moveInRight{
+    0%{
+        opacity: 0;
+        /* this will make our element move to the right if the value is positive + and to the left if value is negative - */
+        transform: translateX(10rem); 
+        
+    }
+    80%{
+        transform: translateX(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes moveInLeft{
+    0%{
+        opacity: 0;
+        /* this will make our element move to the right if the value is positive + and to the left if value is negative - */
+        transform: translateX(-10rem); 
+        
+    }
+    80%{
+        transform: translateX(1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes moveInBottom{
+    0%{
+        opacity: 0;
+        /* this will make our element move to the right if the value is positive + and to the left if value is negative - */
+        transform: translateY(30px); 
+        
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+

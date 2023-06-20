@@ -1,0 +1,14 @@
+{
+  "name": "travelnut",
+  "version": "1.0.0",
+  "description": "Loading page for travelnut",
+  "main": "main.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss style.css -w"
+  },
+  "author": "Robert",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
